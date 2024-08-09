@@ -19,8 +19,8 @@ function App() {
           centered
           onChange={(_, newValue) => setSelectedTab(newValue)}
         >
-          <Tab value={"STT"} label="STT" />
           <Tab value={"TTS"} label="TTS" />
+          <Tab value={"STT"} label="STT" />
         </Tabs>
       </Box>
       <TabPannel
