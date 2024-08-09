@@ -76,7 +76,7 @@ const STTDemoPage = () => {
       <Button
         onClick={() => speak(tempvalueContainerRef.current?.innerText || "")}
       >
-        말해라 이새끼야!
+        음성 출력
       </Button>
     </Box>
   );
