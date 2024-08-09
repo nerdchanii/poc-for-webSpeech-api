@@ -1,9 +1,7 @@
 import { Button, Input } from "@mui/material";
 import React from "react";
 
-type Props = {};
-
-const TTSDemoPage = (props: Props) => {
+const TTSDemoPage = () => {
   const inputRef = React.useRef<HTMLInputElement>(null);
 
   React.useEffect(() => {

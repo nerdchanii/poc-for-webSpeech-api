@@ -1,14 +1,7 @@
-import {
-  Box,
-  Button,
-  Container,
-  Input,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { useEffect, useRef } from "react";
 
-const STTDemoPage = (props: any) => {
+const STTDemoPage = () => {
   const tempvalueContainerRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {

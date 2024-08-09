@@ -1,5 +1,5 @@
-import { HTMLAttributes, useState, ComponentType } from "react";
-import { Box, Button, Tab, Tabs } from "@mui/material";
+import { useState } from "react";
+import { Box, Tab, Tabs } from "@mui/material";
 import TTSDemoPage from "./TTSDemoPage";
 import STTDemoPage from "./STTDemoPage";
 
